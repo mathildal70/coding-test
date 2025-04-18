@@ -62,6 +62,12 @@ def get_data(request: Request):
             if search_val not in rep["role"].lower():
                 match = False
 
+        # Filter by 'region'
+        if "region" in params:
+            search_val = params["region"].lower()
+            if search_val not in rep["region"].lower():
+                match = False
+
         # Filter by 'deal_client'
         if "deal_client" in params:
             search_val = params["deal_client"].lower()
