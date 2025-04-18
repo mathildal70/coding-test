@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "f41cdfb3-c67d-4085-aeda-4305d2fe9fdb",
+		"name": "CODING-TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29860765"
+	},
+	"item": [
+		{
+			"name": "PYTHON",
+			"item": [
+				{
+					"name": "GetDataSales",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/data?role=Senior Sales Executive",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"data"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "cia",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "3",
+									"disabled": true
+								},
+								{
+									"key": "role",
+									"value": "Senior Sales Executive"
+								},
+								{
+									"key": "deal_client",
+									"value": "Corp",
+									"disabled": true
+								},
+								{
+									"key": "deal_status",
+									"value": "In",
+									"disabled": true
+								},
+								{
+									"key": "client_name",
+									"value": "Epsilon%20Ltd",
+									"disabled": true
+								},
+								{
+									"key": "client_industry",
+									"value": "health",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
